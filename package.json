@@ -1,0 +1,22 @@
+{
+    "name": "vscode-hyperion",
+    "displayName": "Hyperion Theme for VSCode",
+    "description": "Hyperion color theme by Protesilaos Stavrou for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "willmtemple",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Hyperion (Dark)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/hyperion-dark-theme.json"
+            }
+        ]
+    }
+}
